@@ -1,0 +1,18 @@
+galaxy_info:
+  author: ypsman
+  description: Setup Docker repository (with pinned version)and installs Docker
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 1.2
+  platforms:
+  - name: Debian
+    versions:
+    - stretch
+  galaxy_tags:
+  - dockerproject
+  - docker
+  - repository
+  - pin
+  - pinning
+  - container
+  - debian
+dependencies: []
