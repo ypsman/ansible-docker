@@ -6,9 +6,7 @@ This Role installs Docker on youre Server.
 
 It imports the gpg Key for the Repository.
 
-You can specifie a version to install and
-
-pin them.
+You can specifie a version to install and pin them.
 
 The docker-version variable is optinal.
 
