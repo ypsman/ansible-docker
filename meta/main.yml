@@ -6,7 +6,11 @@ galaxy_info:
   platforms:
   - name: Debian
     versions:
+    - wheezy
+    - jessie
     - stretch
+  - name: Ubuntu
+    versions: all   
   galaxy_tags:
   - dockerproject
   - docker
