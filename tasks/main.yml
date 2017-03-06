@@ -4,9 +4,6 @@
     url: "https://apt.dockerproject.org/gpg"
     state: present
 
-- name: test
-  command: echo {{ ansible_distribution }}
-
 - apt_repository:
     repo: deb http://apt.dockerproject.org/repo {{ ansible_distribution | lower }}-{{ ansible_distribution_release }} main
     state: present
