@@ -2,7 +2,7 @@ ansible docker
 ==============
 [![Build Status](https://travis-ci.org/ypsman/ansible-docker.svg?branch=master)](https://travis-ci.org/ypsman/ansible-docker)
 
-This Role installs Docker on youre Server.
+This Role installs Docker on your Server.
 
 It imports the gpg Key for the Repository.
 
