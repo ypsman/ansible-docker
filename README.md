@@ -2,13 +2,13 @@ ansible docker
 ==============
 [![Build Status](https://travis-ci.org/ypsman/ansible-docker.svg?branch=master)](https://travis-ci.org/ypsman/ansible-docker)
 
-This Role installs Docker on your Server.
+This Role installs Docker on your Debian/Ubuntu Server.
 
-It imports the gpg Key for the Repository.
+Import the gpg Key for the Repository.
 
-You can specifie a version to install and pin them.
+Optional:
 
-The docker-version variable is optinal.
+Specifie a docker-version to install and apt-pin it.
 
 Example Playbook
 ----------------
