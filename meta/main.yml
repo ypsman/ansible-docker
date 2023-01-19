@@ -9,8 +9,10 @@ galaxy_info:
     - wheezy
     - jessie
     - stretch
+    - buster
+    - bullseye
   - name: Ubuntu
-    versions: all   
+    versions: all
   galaxy_tags:
   - dockerproject
   - docker

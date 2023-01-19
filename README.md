@@ -8,7 +8,8 @@ Import the gpg Key for the Repository.
 
 Optional:
 
-Specifie a docker-version to install and apt-pin it.
+- Add a User to docker group.
+- Specifie a docker-version to install and apt-pin it.
 
 Example Playbook
 ----------------
@@ -17,3 +18,4 @@ Example Playbook
       roles:
         - role: ypsman.docker
           docker_version: "1.12.1"  # optional
+          docker_user: LinuxUser
